@@ -57,13 +57,14 @@ export default class Home extends Component{
             })
             .catch( (err) => {
                 console.log(err);
+                //&#128548; //emoji tired
             })
     }
     render(){
         return(
             <div className="container mt-5 ">
                 <div className="mb-4">
-                    <h5>Tired of finding an vaccination slot? &#128548;</h5>
+                    <h5>Tired of finding an vaccination slot?</h5>
                     <h3>Subscribe to get Vaccine Availablity alerts &#9200;</h3>
                     <img src={vaccine} class="col-md-3"></img>
                 </div>

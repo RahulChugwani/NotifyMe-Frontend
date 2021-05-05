@@ -10,8 +10,7 @@ function App() {
     <div className="App">
       <Router>
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
-        <img src={vaccineHeaderImg} className="header-logo mr-2" alt="logo"></img>
-        <a class="navbar-brand row" href="#"><h2>NotifyMe (CoWIN-Notifier)</h2></a>
+        <a class="navbar-brand row" href="#"><h3>NotifyMe (CoWIN-Notifier)</h3></a>
       </nav>
       <Route path="/" exact component= {Home} />
       <Route path="/unsubscribe" exact component= {UnSubscribe} />
