@@ -101,8 +101,8 @@ export default class Home extends Component{
                 </div>
                 <div className="info-data mb-3 mt-5">
                     <p>
-                        <h5>Availability of vaccine slots in your respective pincode is checked automatically every 24 hours. </h5>
-                        <h5>Update notifications will be sent to your registered email-id daily at 8:00 AM.</h5>
+                        <h6>Availability of vaccine slots in your respective pincode is checked automatically every 24 hours. </h6>
+                        <h6>Update notifications will be sent to your registered email-id daily in the morning.</h6>
                         <i>Want to get notifications for multiple pincodes? You can register multiple times on website.</i>
                     </p>
                 </div>
