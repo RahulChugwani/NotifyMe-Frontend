@@ -68,8 +68,7 @@ export default class Home extends Component{
                     <h3>Subscribe to get Vaccine Availablity alerts &#9200;</h3>
                     <img src={vaccine} class="col-md-3"></img>
                 </div>
-                <div className="col-md-12 row">
-                <div className="col-md-3"></div>
+                <div className="col-md-12 formDiv">
                 <form onSubmit={this.onSubmit} className="col-md-6 form-div">
                     <div className="form-group">
                         <label className="">Email: </label>

@@ -18,7 +18,15 @@
 .form-div{
   font-weight:600;
   color: grey;
+  display: inline-block;
 }
+
+.formDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .App-logo {
   height: 40vmin;
