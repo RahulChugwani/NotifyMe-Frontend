@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/home'
+import UnSubscribe from './components/unsubscribe'
+import {BrowserRouter as Router, Route } from "react-router-dom";
+
+import vaccineHeaderImg from './vac-header6.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <Router>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+        <img src={vaccineHeaderImg} className="header-logo mr-2" alt="logo"></img>
+        <a class="navbar-brand row" href="#"><h2>NotifyMe (CoWIN-Notifier)</h2></a>
+      </nav>
+      <Route path="/" exact component= {Home} />
+      <Route path="/unsubscribe" exact component= {UnSubscribe} />
+      <div className="mt-5 mb-5 container">
+        <p><i>We treat all your personal data with care and only uses it for sending email notifications.</i><br/>
+        <i>This site uses the CoWIN public API to fetch information about available slots.</i><br/>
+        <i>(Trying my best to provide accurate informations, as this is not official intiative, the data might not be exact.
+        Please keep checking your COWIN website and Aarogya Setu application.)</i></p>
+        <p><b>If you have any suggestion or want to collaboarate in any initiative, please reach out to me at 
+        <a href="mailto: rahulchugwani12@gmail.com"> rahulchugwani12@gmail.com</a></b><br/>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      </div>
+      </Router>
     </div>
   );
 }

@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+
+.header-logo {
+  height: 70px;
+  width: 80px;
+}
+
+.info-data{
+  background-color: #fff3cd; 
+  border-radius: 5%;
+  color: #856404;
+  padding: 2%;
+}
+
+.form-div{
+  font-weight:600;
+  color: grey;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
