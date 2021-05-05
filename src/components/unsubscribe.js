@@ -35,8 +35,7 @@ export default class UnSubscribe extends Component{
     render(){
         return(
             <div className="container">
-                <div className="col-md-12 mt-5 row">
-                    <div className="col-md-3"></div>
+                <div className="col-md-12 mt-5 formDiv">
                     <form onSubmit={this.onSubmit} className="col-md-6 form-div">
                         <div className="form-group">
                             <label>Email: </label>
